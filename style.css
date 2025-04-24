@@ -37,7 +37,6 @@ h1 {
 	background: url('cat_sprite.jpg') no-repeat -24px -175px;
 	width: 128px;
 	height: 105px;
-	margin: 30px auto;
 	animation: walk 1s steps(4) infinite;
 }
 
