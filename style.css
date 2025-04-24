@@ -34,16 +34,16 @@ h1 {
 }
 
 #cat-sprite {
-  width: 64px;
-  height: 64px;
+	background: url('cat_sprite.jpg') no-repeat -24px -175px;
+	width: 128px;
+	height: 105px;
   margin: 30px auto;
-  background: url('cat_sprite.jpg') left center;
   animation: walk 1s steps(4) infinite;
 }
 
 @keyframes walk {
-  from { background-position: 0px; }
-  to { background-position: -256px; }
+  from { background-position: -24px -175px; }
+  to { background-position: -504px -175px; }
 }
 
 form {
